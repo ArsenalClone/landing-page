@@ -1,0 +1,67 @@
+body { 
+    background-color: rgb(67, 72, 88);
+    font-family: 'Roboto', arial;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    background-color: cadetblue;
+    color: white;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+}
+
+.header-logo img { 
+    justify-content: flex-start;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+    
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.main1 {
+    display: flex;
+    flex-basis: 400px;
+    flex-direction: column;
+}
+
+.main1 button { 
+    display: block;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+
+}
+
+
+h1 { 
+    color: white;
+}
